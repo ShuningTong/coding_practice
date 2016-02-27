@@ -1,4 +1,4 @@
-# Feb 10
+# Feb 27
 
 ## Problem 1. Search in two sorted arrays
 The k-th smallest element in a sorted array A is simply A[k − 1] which takes O(1) time to compute. Suppose you are given two sorted arrays A and B, of length n and m respectively, and you need to find the k-th smallest element of the array C consisting of the n + m elements of A and B arranged in sorted order. We'll refer to this array as the union of A and B, although strictly speaking union is a set-theoretic operation that does not have a notion of order, or duplicate elements.
