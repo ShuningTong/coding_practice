@@ -20,4 +20,5 @@ Anagrams are popular word play puzzles, where by rearranging letters of one set 
 Write a function that takes as input a dictionary of English words, and returns a partition of the dictionary into subsets of words that are all anagrams of each other. Use the provided interface.
 
 Plan to solve: first write a isAnagram method (take two Strings as input, parse them into arrays of chars, create another array of length 26 to store the number of each alphabet, iterate the second char array to subtract the number of alpabet, if we have every element in length-26 array be 0, then they are anagrams), then write two for-loops to iterate the dictionary, if any two are anagrams, put them in an ArrayList.
+Actual solution: iterate the dictionary only once, if its sorted format (Arrays.sort()) is already in the hashmap, add the index of this word at the end of posting, if not, build a new entry. Iterate the hashmap to get the posting values (index of word), and output words.
  
